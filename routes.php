@@ -7,13 +7,15 @@ $routes = [
     '/dashboard' => 'controllers/dashboard.php',
     '/profile' => 'controllers/profile.php',
     '/sale' => 'controllers/sale.php',
-    '/cashiers' => 'controllers/sale.php',
+    '/users' => 'controllers/user.php',
     '/products' => 'controllers/product.php',
 ];
 
 function routeController($uri, $routes){
     if(array_key_exists($uri, $routes)){
         require $routes[$uri];
+    } else{
+        require 'controllers/404.php';
     }
 }
 

@@ -1,7 +1,7 @@
 
 <?php require 'partials/head.view.php'; ?>
 
-<section id="welcomepage" class="bg-neutral-100 h-auto md:h-screen flex align-middle p-8">
+<section id="welcomepage" class=" h-auto md:h-screen flex w-full items-center p-8">
     <div id="container" class="shadow-2xl shadow-teal-100 w-full max-w-[900px] m-auto h-auto md:h-[80%] flex flex-col-reverse md:flex-row rounded-3xl overflow-hidden">
         <div class="w-full md:w-1/2 bg-white p-7 md:p-10 flex flex-col justify-center">
             <h1 class="text-center font-bold uppercase text-4xl mb-4 md:mb-6 text-teal-800">welcome</h1>

@@ -1,4 +1,4 @@
-<div class="bg-white box-shadow-lg w-full p-4 px-7 flex justify-between items-center">
+<div class="bg-white shadow-lg w-full p-4 px-7 flex justify-between items-center">
     <h2 class="text-4xl font-semibold font-primary text-slate-700"><?php echo $title; ?></h2>
     <div id="navtop-icons" class="flex gap-4">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-slate-700 cursor-pointer hover:text-teal-600 transition duration-300 ease-in-out">
