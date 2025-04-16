@@ -1,0 +1,17 @@
+#welcomepage #container > div:last-child{
+    background-image: url(/assets/img/pexels-artempodrez-5025503.webp);
+    background-position: center;
+    background-size: cover;
+}
+#side-nav .nav-item.active:after {
+    content: " ";
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    background: #000;
+    left: 0;
+    top: 0;
+}
+#side-nav .nav-item.active{
+    background: #cbfbf1;
+}
