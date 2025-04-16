@@ -7,5 +7,5 @@
     <title>The Count Box</title>
 </head>
 <body class="font-primary">
-    <section id="page" class="bg-neutral-200 w-full h-full">
+    <section id="page" class=" w-full h-full">
         <div class="w-full max-w-[1920px] flex m-auto">

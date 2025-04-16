@@ -1,3 +1,7 @@
+#page{
+    background: #ffffff;
+    background: linear-gradient(148deg, rgba(255, 255, 255, 1) 0%, rgba(247, 255, 252, 1) 50%, rgba(240, 253, 250, 1) 100%);
+}
 #welcomepage #container > div:last-child{
     background-image: url(/assets/img/pexels-artempodrez-5025503.webp);
     background-position: center;
