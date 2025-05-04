@@ -7,5 +7,4 @@
     <title>The Count Box</title>
 </head>
 <body class="font-primary">
-    <section id="page" class=" w-full h-full">
-        <div class="w-full max-w-[1920px] flex m-auto">
+    <main id="page" class=" w-full h-full <?php echo $_SERVER['REQUEST_URI'] != "/" ? "flex" : "";?>">

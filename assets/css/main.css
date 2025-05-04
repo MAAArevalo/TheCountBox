@@ -1,21 +1,46 @@
-#page{
-    background: #ffffff;
-    background: linear-gradient(148deg, rgba(255, 255, 255, 1) 0%, rgba(247, 255, 252, 1) 50%, rgba(240, 253, 250, 1) 100%);
-}
-#welcomepage #container > div:last-child{
-    background-image: url(/assets/img/pexels-artempodrez-5025503.webp);
-    background-position: center;
-    background-size: cover;
-}
+
 #side-nav .nav-item.active:after {
     content: " ";
-    width: 2px;
+    width: 5px;
     height: 100%;
     position: absolute;
-    background: #000;
+    background: #169976;
     left: 0;
     top: 0;
 }
-#side-nav .nav-item.active{
-    background: #cbfbf1;
+#side-nav .nav-item.active {
+    background: #1DCD9F;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 0 20px;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+h2, h3, h4, h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+}
+
+/* Toggle Login Register*/
+.toggleActive{
+    left: auto !important;
+    right: 0 !important;
 }
