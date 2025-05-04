@@ -1,21 +1,42 @@
 
 <?php require 'partials/head.view.php'; ?>
 
-<section id="welcomepage" class=" h-auto md:h-screen flex w-full items-center p-8">
-    <div id="container" class="shadow-2xl shadow-teal-100 w-full max-w-[900px] m-auto h-auto md:h-[80%] flex flex-col-reverse md:flex-row rounded-3xl overflow-hidden">
-        <div class="w-full md:w-1/2 bg-white p-7 md:p-10 flex flex-col justify-center">
-            <h1 class="text-center font-bold uppercase text-4xl mb-4 md:mb-6 text-teal-800">welcome</h1>
-            <form action="" class="mb-3">
-                <input type="text" class="border-b w-full mb-4 p-3 outline-teal-600" placeholder="Username">
-                <input type="password" name="" id="" class="border-b w-full mb-6 p-3 outline-teal-600" placeholder="Password">
-                <input type="submit" value="Sign In" class="bg-teal-400 text-white font-medium w-full rounded-sm p-2.5 cursor-pointer transition ease-in-out duration-300 hover:bg-teal-900">
-            </form>
-            <p class="text-center text-[12px] mb-2.5 text-slate-700 font-normal">Don't have an account? <span class="cursor-pointer text-teal-700">Register Now!</span></p>
-            <p class="text-center text-[12px] text-slate-700 font-normal text-teal-700"><a href="">Forgot Password</a></p>
+<section id="welcomePage" class="flex bg-[url(/assets/img/pexels-artempodrez-5025503.webp)] bg-center bg-cover h-screen">
+    <div id="welcomeForm" class="w-1/3 bg-white rounded-r-lg p-12">
+        <div id="welcomeFormContainer">
+            <h2 class="text-center mb-3">Welcome</h2>
+            <div id="logRegToggle" class="mb-5 flex relative bg-theme-green m-auto rounded-full w-max">
+                <div id="togglePoint" class="absolute top-0 left-0 w-1/2 rounded-full h-full bg-theme-light-green transition duration-3000 ease-in-out"></div>
+                <span id="loginToggle" class="p-4 py-2 cursor-pointer w-[100px] relative text-center font-semibold text-white">Login</span>
+                <span id="registerToggle"class="p-4 py-2 cursor-pointer w-[100px] relative text-center font-semibold text-white">Register</span>
+            </div>
+            <div id="form-login">
+                <form action="">
+                    <input class="bg-neutral-100 rounded-sm w-full p-4 mb-4 focus:outline border-1 border-neutral-300 focus:border-theme-light-green focus:outline-theme-light-green" type="text" placeholder="Username" name="username" id="">
+                    <input class="bg-neutral-100 rounded-sm w-full p-4 focus:outline border-1 border-neutral-300 focus:border-theme-light-green focus:outline-theme-light-green mb-2" type="password" placeholder="Password" name="password" id="">
+                    <span id="forgot-pass" class="text-right flex w-full justify-end mb-4">Forgot Password?</span>
+                    <input type="submit" value="Log In" class="bg-theme-light-green rounded-md cursor-pointer p-2 px-4 transition duration-500 ease-in-out text-white hover:bg-theme-green m-auto flex">
+                </form>
+            </div>
+            <div id="form-register" class="hidden">
+                <form action="">
+                    <div class="flex flex-nowrap gap-4">
+                        <input class="bg-neutral-100 rounded-sm w-full p-4 mb-4 focus:outline border-1 border-neutral-300 focus:border-theme-light-green focus:outline-theme-light-green w-1/2" type="text" placeholder="First Name" name="firstname" id="">
+                        <input class="bg-neutral-100 rounded-sm w-full p-4 mb-4 focus:outline border-1 border-neutral-300 focus:border-theme-light-green focus:outline-theme-light-green w-1/2" type="text" placeholder="Last Name" name="lastname" id="">                        
+                    </div>
+                    <input class="bg-neutral-100 rounded-sm w-full p-4 mb-4 focus:outline border-1 border-neutral-300 focus:border-theme-light-green focus:outline-theme-light-green" type="email" placeholder="Email Address" name="username" id="">
+                    <input class="bg-neutral-100 rounded-sm w-full p-4 focus:outline border-1 border-neutral-300 focus:border-theme-light-green focus:outline-theme-light-green mb-4" type="password" placeholder="Password" name="password" id="">
+                    <input class="bg-neutral-100 rounded-sm w-full p-4 mb-4 focus:outline border-1 border-neutral-300 focus:border-theme-light-green focus:outline-theme-light-green" type="text" placeholder="Company Name" name="company" id="">
+                    <input type="submit" value="Register" class="bg-theme-light-green rounded-md cursor-pointer p-2 px-4 transition duration-500 ease-in-out text-white hover:bg-theme-green m-auto flex">
+                </form>
+            </div>
         </div>
-        <div class="w-full md:w-1/2 p-7 bg-slate-500 bg-blend-multiply">
-            <h1 class="text-7xl font-bold text-white uppercase">The<br>Count<br>Box</h1>
-            <p class="text-white">e-Tinda's new inventory system.</p>
+    </div>
+    <div id="welcome-desc" class="w-2/3 h-full p-12 flex flex-col justify-center">
+        <div class="welcomeContent">
+            <img src="/assets/img/TheCountBox.webp" width="100" height="100" alt="Unbox Logo">
+            <h1 class="">The<br>CountBox</h1>
+            <p>Remake of college project e-Tinda inventory system. New inventory with sales system.</p>
         </div>
     </div>
 </section>

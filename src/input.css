@@ -2,5 +2,9 @@
 @import "tailwindcss";
 
 @theme {
-    --font-primary: "Poppins", sans-serif; 
+    --font-primary: "Poppins", sans-serif;
+    --color-secondary-black: #222222;
+    --color-theme-light-green: #1DCD9F;
+    --color-theme-green: #169976;
+    --shadow-theme-green: 0 0 5px rgba(29, 205, 159, 0.4);
 }

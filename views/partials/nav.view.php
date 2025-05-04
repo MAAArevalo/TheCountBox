@@ -1,4 +1,13 @@
 <div id="side-nav" class="sticky top-[25px] h-[100vh] shadow-lg bg-white flex items-center flex-col w-[20%] max-w-[250px] py-5">
+    <div id="logo" class="mb-5">
+        <img src="/assets/img/TheCountBox.webp" width="60" height="60" alt="Unbox Logo">
+    </div>
+    <div id="storeName" class="mb-5">
+        <div class="w-[50px] h-[50px] rounded-full bg-neutral-200 overflow-hidden m-auto mb-2">
+            <img src="/assets/img/TheCountBox.webp" class="w-full h-full object-cover" alt="Unbox Logo">
+        </div>
+        <h3 class="w-full text-center">Store Name</h3>
+    </div>
     <a href="/profile" id="profile" class="<?php echo check_current_uri("/profile"); ?> nav-item w-full relative p-4 px-3 hover:bg-teal-100 transition duration-300 ease-in-out cursor-pointer">
         <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline mr-2">
