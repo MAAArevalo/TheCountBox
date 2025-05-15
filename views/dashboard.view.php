@@ -9,7 +9,7 @@
             <div id="dashSales" class="flex flex-wrap gap-5 mb-8">
                 <h3 class="w-full">Sales</h3>
                 <div id="salesSummary" class="w-1/4">
-                    <div id="salesDaily" class="p-5 border-l-[20px] rounded-lg border-theme-light-green shadow-theme-green mb-3">
+                    <div id="salesDaily" class="p-5 border-l-[15px] rounded-lg border-theme-light-green shadow-theme-green mb-3">
                         <h4 class="text-theme-light-green">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline text-theme-light-green">
                               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
@@ -18,7 +18,7 @@
                         </h4>
                         <span class="font-bold text-[40px]">₱ 100</span>
                     </div>
-                    <div id="salesMonthly" class="p-5 border-l-[20px] rounded-lg border-theme-light-green shadow-theme-green mb-3">
+                    <div id="salesMonthly" class="p-5 border-l-[15px] rounded-lg border-theme-light-green shadow-theme-green mb-3">
                     <h4 class="text-theme-light-green">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline text-theme-light-green">
                               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
@@ -27,7 +27,7 @@
                         </h4>
                         <span class="font-bold text-[40px]">₱ 100</span>
                     </div>
-                    <div id="salesYearly" class="p-5 border-l-[20px] rounded-lg border-theme-light-green shadow-theme-green mb-3">
+                    <div id="salesYearly" class="p-5 border-l-[15px] rounded-lg border-theme-light-green shadow-theme-green mb-3">
                     <h4 class="text-theme-light-green">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline text-theme-light-green">
                               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
