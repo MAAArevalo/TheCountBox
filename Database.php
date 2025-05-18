@@ -30,14 +30,23 @@ class Database {
         $products = $statement->fetchAll(PDO::FETCH_ASSOC);
 
         return $products;
+        
     }
     //Add New Product
     public function add_product($args){
+        $productData = $args;
+        $params = 'insert into tcb_products (product_name, store_id, product_quantity, product_price) values ("'.$productData["productName"].'",1,'.$productData["productQuantity"].','.$productData["productPrice"].')';
 
+        $this->theQuery($params);
     }
     //Update Products
     public function update_products($args){}
     public function delete_product($args){}
+
+
+    public function theQuery($params){
+        $this->connect->query($params);
+    }
 
 
 

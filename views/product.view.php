@@ -54,8 +54,8 @@
                                 <p class="text-center">₱ <?php echo $product['product_price']; ?></p>
                             </div>
                             <div id="productCTA" class="flex flex-nowrap gap-3">
-                                <button class=" rounded-sm p-2 w-1/2 bg-red-400 text-white">Delete</button>
-                                <button class=" rounded-sm p-2 w-1/2 bg-blue-400 text-white">Edit</button>
+                                <button class="cursor-pointer transition duration-300 ease-in-out rounded-sm p-2 w-1/2 bg-red-400 hover:bg-red-900 text-white">Delete</button>
+                                <button class="cursor-pointer transition duration-300 ease-in-out rounded-sm p-2 w-1/2 bg-blue-400 hover:bg-blue-900 text-white">Edit</button>
                             </div>
                         </div>
                     </div>
