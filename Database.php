@@ -22,7 +22,6 @@ class Database {
                 }
             }
             $params = $params.$addQuery;
-            echo $params;
         }
         
         $statement = $this->connect->prepare($params);

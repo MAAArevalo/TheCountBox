@@ -11,6 +11,8 @@ $routes = [
     '/products' => 'controllers/product.php',
 ];
 
+
+
 function routeController($uri, $routes){
     if(array_key_exists($uri, $routes)){
         require $routes[$uri];
